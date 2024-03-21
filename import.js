@@ -1,6 +1,5 @@
 // Your Using NodeJS Quick By Newfies On GitHub!
-// Import This With The Following:
-// const njsQuick = require("https://raw.githubusercontent.com/Newfies/nodejs-quick/main/import.js");
+// const njsQ = require('https://github.com/Newfies/njsq/raw/main/import.js');
 
 // Easy console.log Alternative; I'm Lazy
 function l(msg) {
