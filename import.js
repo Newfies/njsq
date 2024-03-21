@@ -1,4 +1,4 @@
-// Using NodeJS Quick By @Newfies On GitHub!
+// Your Using NodeJS Quick By Newfies On GitHub!
 // Import This With The Following:
 // const njsQuick = require("https://raw.githubusercontent.com/Newfies/nodejs-quick/main/import.js");
 
