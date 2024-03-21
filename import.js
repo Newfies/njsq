@@ -1,7 +1,7 @@
 // Your Using NodeJS Quick By Newfies On GitHub!
 // Trying to upload to npm soon.
 // For now add to your project folder then use
-// require('./import.js')
+// const njsQ = require('./import.js')
 
 // Easy console.log Alternative; I'm Lazy
 function l(msg) {
