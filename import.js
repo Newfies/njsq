@@ -14,7 +14,7 @@ const colorYellow = "\x1b[33m";
 const colorBlack = "\x1b[30m:";
 const colorMagenta = "\x1b[35m:";
 const colorCyan = "\x1b[36m:";
-const colorWhite = \x1b[37m:";
+const colorWhite = "\x1b[37m:";
 // Coloring Reset - Console
 const colorReset = "\x1b[0m";
 
