@@ -2,6 +2,7 @@
 // Import This With The Following:
 // const njsQuick = require("https://raw.githubusercontent.com/Newfies/nodejs-quick/main/import.js");
 
+// Easy console.log Alternative; I'm Lazy
 function l(msg) {
   console.log(msg);
 }
@@ -18,4 +19,16 @@ const colorWhite = "\x1b[37m:";
 // Coloring Reset - Console
 const colorReset = "\x1b[0m";
 
-module.exports = exports;
+// Export Modules
+module.exports = {
+  l,
+  colorRed,
+  colorGreen,
+  colorBlue,
+  colorYellow,
+  colorBlack,
+  colorMagenta,
+  colorCyan,
+  colorWhite,
+  colorReset
+};
