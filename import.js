@@ -1,5 +1,5 @@
 // Easy console.log Alternative; I'm Lazy
-function log(msg) {
+function qlog(msg) {
   console.log(msg);
 };
 
@@ -42,7 +42,6 @@ const tsHidden = "\x1b[8m";
 
 // Export Modules
 module.exports = {
-  log,
   tRed,
   tGreen,
   tBlue,
@@ -75,3 +74,5 @@ module.exports = {
   tsReverse,
   tsHidden
 };
+
+global.qlog = qlog;
