@@ -35,7 +35,7 @@ const tsBlink = "\x1b[5m";
 const tsReverse = "\x1b[7m";
 const tsHidden = "\x1b[8m";
 
-
+// Quick Log
 function qLog(msg) {
   console.log(msg);
 };

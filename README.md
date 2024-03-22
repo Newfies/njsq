@@ -3,7 +3,7 @@
 Import njsQ by doing the following:
 
 install the package:
-  ```sh
+  ```js
   npm install github:Newfies/njsq
   ```
   
