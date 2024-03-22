@@ -35,11 +35,12 @@ const tsBlink = "\x1b[5m";
 const tsReverse = "\x1b[7m";
 const tsHidden = "\x1b[8m";
 
-// Easy console.log Alternative; I'm Lazy
+
 function qLog(msg) {
   console.log(msg);
 };
 
+/*
 function aLog(msg){
   console.log(tRed + msg + tReset);
 };
@@ -51,6 +52,7 @@ function wLog(msg){
 function sLog(msg){
   console.log(tGreen + msg + tReset);
 };
+*/
 
 // Export Modules
 module.exports = {
@@ -89,6 +91,3 @@ module.exports = {
 
 // Export Global Modules
 global.qLog = qLog;
-global.aLog = aLog;
-global.wLog = wLog;
-global.sLog = sLog;
