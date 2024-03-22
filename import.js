@@ -90,4 +90,5 @@ module.exports = {
 // Export Global Modules
 global.qLog = qLog;
 global.aLog = aLog;
+global.wLog = wLog;
 global.sLog = sLog;
