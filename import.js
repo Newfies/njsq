@@ -1,5 +1,5 @@
 // Easy console.log Alternative; I'm Lazy
-function l(msg) {
+function log(msg) {
   console.log(msg);
 };
 

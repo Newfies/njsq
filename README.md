@@ -2,10 +2,12 @@
 
 Import njsQ by doing the following:
 
-* Download **import.js**
-* Add **import.js** to the folders project
-* Import **import.js** with the following
-  
+install the package:
   ```js
-  const njsQ = require("import.js");
+  npm install github:Newfies/njsq
+  ```
+  
+define the package:
+  ```js
+  const njsQ = require('NodeJSQuick');;
   ```

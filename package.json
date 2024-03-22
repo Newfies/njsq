@@ -1,6 +1,6 @@
 {
   "name": "NodeJSQuick",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quick Node.js functions and more",
   "main": "import.js",
   "scripts": {
@@ -16,5 +16,5 @@
     "functions"
   ],
   "author": "Newfies",
-  "license": "MIT"
+  "license": "CC BY-SA 4.0"
 }
