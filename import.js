@@ -1,8 +1,3 @@
-// Easy console.log Alternative; I'm Lazy
-function qlog(msg) {
-  console.log(msg);
-};
-
 // Console Log Text Colors
 const tRed = "\x1b[31m";
 const tGreen = "\x1b[32m";
@@ -39,6 +34,15 @@ const tsUnderline = "\x1b[4m";
 const tsBlink = "\x1b[5m";
 const tsReverse = "\x1b[7m";
 const tsHidden = "\x1b[8m";
+
+// Easy console.log Alternative; I'm Lazy
+function qlog(msg) {
+  console.log(msg);
+};
+
+function aLog(msg){
+  console.log(tRed + msg + tReset);
+}
 
 // Export Modules
 module.exports = {
@@ -77,3 +81,4 @@ module.exports = {
 
 // Export Global Modules
 global.qlog = qlog;
+global.aLog = aLog;
