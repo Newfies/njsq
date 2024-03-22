@@ -36,13 +36,21 @@ const tsReverse = "\x1b[7m";
 const tsHidden = "\x1b[8m";
 
 // Easy console.log Alternative; I'm Lazy
-function qlog(msg) {
+function qLog(msg) {
   console.log(msg);
 };
 
 function aLog(msg){
   console.log(tRed + msg + tReset);
-}
+};
+
+function wLog(msg){
+  console.log(tYellow + msg + tReset);
+};
+
+function sLog(msg){
+  console.log(tGreen + msg + tReset);
+};
 
 // Export Modules
 module.exports = {
@@ -80,5 +88,6 @@ module.exports = {
 };
 
 // Export Global Modules
-global.qlog = qlog;
+global.qLog = qLog;
 global.aLog = aLog;
+global.sLog = sLog;
