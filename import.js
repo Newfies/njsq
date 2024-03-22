@@ -3,7 +3,7 @@ function l(msg) {
   console.log(msg);
 };
 
-// Colors and Styles for Console Log
+// Console Log Text Colors
 const tRed = "\x1b[31m";
 const tGreen = "\x1b[32m";
 const tBlue = "\x1b[34m";
@@ -21,6 +21,8 @@ const tbBlue = "\x1b[94m";
 const tbMagenta = "\x1b[95m";
 const tbCyan = "\x1b[96m";
 const tbWhite = "\x1b[97m";
+
+// Console Log Background Colors
 const bgBlack = "\x1b[40m";
 const bgRed = "\x1b[41m";
 const bgGreen = "\x1b[42m";
@@ -29,6 +31,8 @@ const bgBlue = "\x1b[44m";
 const bgMagenta = "\x1b[45m";
 const bgCyan = "\x1b[46m";
 const bgWhite = "\x1b[47m";
+
+// Console Log Text Styles
 const tsBold = "\x1b[1m";
 const tsDim = "\x1b[2m";
 const tsUnderline = "\x1b[4m";
