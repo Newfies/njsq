@@ -42,7 +42,7 @@ const tsHidden = "\x1b[8m";
 
 // Export Modules
 module.exports = {
-  l,
+  log,
   tRed,
   tGreen,
   tBlue,
