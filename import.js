@@ -40,20 +40,6 @@ function qLog(msg) {
   console.log(msg);
 };
 
-/*
-function aLog(msg){
-  console.log(tRed + msg + tReset);
-};
-
-function wLog(msg){
-  console.log(tYellow + msg + tReset);
-};
-
-function sLog(msg){
-  console.log(tGreen + msg + tReset);
-};
-*/
-
 // Export Modules
 module.exports = {
   tRed,
