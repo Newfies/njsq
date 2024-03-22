@@ -37,7 +37,6 @@ const tsHidden = "\x1b[8m";
 
 
 function qLog(msg) {
-  console.log(msg);
 };
 
 // Export Modules
