@@ -9,5 +9,5 @@ install the package:
   
 define the package:
   ```js
-  const njsQ = require('NodeJSQuick');
+  const njsQ = require('nodejsquick');
   ```
