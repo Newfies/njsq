@@ -1,13 +1,11 @@
 # njsQ - NodeJS Quick
 
-Import njsQ by doing the following:
+**Install the package:**
+```bash
+npm install github:Newfies/njsq
+```
 
-install the package:
-  ```
-  npm install github:Newfies/njsq
-  ```
-  
-define the package:
-  ```js
-  const njsQ = require('nodejsquick');
-  ```
+**Define the package:**
+```js
+const njsQ = require('njsq');
+```
